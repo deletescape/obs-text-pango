@@ -550,6 +550,7 @@ static struct obs_source_info pango_source_info = {
 	.video_tick = pango_video_tick,
 	.get_defaults = pango_source_get_defaults,
 	.get_properties = pango_source_get_properties,
+	.icon_type = OBS_ICON_TYPE_TEXT,
 };
 
 bool obs_module_load()
