@@ -58,9 +58,13 @@ Linux
 -----
 On Debian and its derivitaves you can install `libpango1.0-dev` for all the build time dependencies. Everywhere else its typically just `pango`.
 
+For precompiled binaries extract to `~/.config/obs-studio/plugins` and ensure dependencies are installed.
+
 Windows
 -----
 You will have to build the toolchain yourself, but it should be simplified if you have a posix shell environment such as cygwin and the visual studio build tools via https://github.com/kkartaltepe/pango-win32-build
+
+Install by extracting into your obs studio folder' `obs-plugins`
 
 Mac
 -----
